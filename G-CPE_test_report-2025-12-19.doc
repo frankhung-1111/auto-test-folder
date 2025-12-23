@@ -1,0 +1,362 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><title>testreport Home</title>
+<link type="text/css" rel="stylesheet" href="http://10.5.88.108/gui/themes/default/css/tl_documents.css" />
+<style type="text/css" media="print">.notprintable { display:none;}</style>
+</head>
+<body>
+<div>
+<div style="float:right;">Gemtek</div>
+<div>&nbsp;</div><hr />
+<p style="text-align: center;"><img alt="TestLink logo" title="configure using $tlCfg->document_generator->company_logo"  width=332 height=92 src="http://10.5.88.108/gui/themes/default/images/gemtek_logo_icon.png" /></p></div>
+<div class="doc_title"><p>Test Plan Execution Report</p></div>
+<div class="doc_title" style="text-align:left;margin: auto;"><p>Test Project: Gemtek Generic<br/>Test Plan: Generic-WREQ-130BE(SPF13)<br/>Test Suite: Home</p></div>
+<div class="summary"><p id="printedby">Printed by TestLink on 19/12/2025</p></div>
+<div class="pagefooter" id="copyright">&copy;2025 Gemtek Technology Co., Ltd.</div>
+<div class="pagefooter" id="confidential">Confidential & Proprietary</div>
+<h1 class="doclevel" >Test Project: Gemtek Generic</h1>
+<div class="txtlevel"><p>WREQ-130BE</p>
+
+<p>For CHT (WREQ-130BE)</p>
+
+<p>WRTQ-409BE</p>
+
+<p>WNRFQQ-112BE</p>
+
+<p>WNRFQQ-113BE</p></div>
+ <br/><h1 class="doclevel" style="page-break-before: avoid;"  >Test Plan: Generic-WREQ-130BE(SPF13)</h1>
+<div class="txtlevel"><p>For WREQ-130BE SPF13</p>
+
+<p>Full round test with CPE, Mesh,&nbsp;&nbsp;Genix, TR369</p></div>
+ <br/><h1 class="doclevel" id="toc_1">1. Platform: SPF13</h1><div class="txtlevel"></div>
+ <br/><h1 class='doclevel'>Test Suite : Home</h1>
+<h1 class='doclevel'>Test Suite : Device information</h1>
+<p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="5">Test Case G-CPE-272: Internet Status&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td><td><span class="label">Execution Status:</span></td></tr><tr><td width="5">1</td><td><p>Connect DUT to Internet&nbsp;</p>
+</td><td></td><td></td></tr><tr><td width="5">2</td><td><p>Check Internet Status&nbsp;</p>
+</td><td><p>Verify the Internet Status info(Up) is corrected</p>
+</td><td></td></tr><tr><td width="5">3</td><td><p>Disconnect DUT to Internet&nbsp;</p>
+</td><td></td><td></td></tr><tr><td width="5">4</td><td><p>Check Internet Status&nbsp;</p>
+</td><td><p>Verify the Internet Status info(Down) is corrected</p>
+</td><td></td></tr><tr><td width="5">5</td><td><p>Connect DUT to PPPOE line and setting <strong>wrong&nbsp;</strong>user name and password and then check internet status&nbsp;</p>
+</td><td><p>Verify the Internet Status info still shows Down&nbsp;</p>
+</td><td></td></tr><tr><td width="5">6</td><td><p>Connect DUT to PPPOE line and setting <strong>correct </strong>user name and password&nbsp;and then check internet status&nbsp;</p>
+</td><td><p>Verify the Internet Status info(UP) is corrected</p>
+</td><td></td></tr><tr><td width="5">7</td><td><p>Connect DUT to PPPOE line and setting <strong>wrong&nbsp;</strong>user name and password again&nbsp;and then check internet status&nbsp;</p>
+</td><td><p>Verify the Internet Status info(Down) is corrected</p>
+</td><td></td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="4">Automated</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="4"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Priority:</span></td><td colspan="4">High</td></tr>
+<tr><td colspan="5"></td></tr><tr style="font-weight: bold;background: #EEE;text-align: left;"><td width="20%" valign="top">Execution Details</td><td colspan="4">&nbsp;</td></tr>
+<tr><td width="20%" valign="top">Build</td><td colspan="4">v1.1.03.002</td></tr>
+<tr><td width="20%" valign="top">Tester</td><td  colspan="4" >frank_hung</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Execution Result:</span></td><td  colspan="4" ><b>Passed</b></td></tr>
+<tr><td width="20%"><span class="label">Execution Mode:</span></td><td  colspan="4" ><b>Automated</b></td></tr>
+<tr><td width="20%"><span class="label">Execution duration (min):</span></td><td  colspan="4" ><b>&nbsp;</b></td></tr>
+</table>
+</div>
+<p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="5">Test Case G-CPE-273: Online device list&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td><td><span class="label">Execution Status:</span></td></tr><tr><td width="5">1</td><td><p>LAN PC connect to DUT</p>
+</td><td></td><td></td></tr><tr><td width="5">2</td><td><p>Check Online device list</p>
+</td><td><p>Verify the Online device list info is corrected</p>
+</td><td></td></tr><tr><td width="5">3</td><td><p>Wireless LAN PC connect to DUT</p>
+</td><td></td><td></td></tr><tr><td width="5">4</td><td><p>Check Online device list</p>
+</td><td><p>Verify the Online device list info is corrected</p>
+</td><td></td></tr><tr><td width="5">5</td><td><p>Android STA connect to DUT</p>
+</td><td></td><td></td></tr><tr><td width="5">6</td><td><p>Check Online device list</p>
+</td><td><p>Verify the Online device list info is corrected</p>
+</td><td></td></tr><tr><td width="5">7</td><td><p>IOS&nbsp;STA connect to DUT</p>
+</td><td></td><td></td></tr><tr><td width="5">8</td><td><p>Check Online device list</p>
+</td><td><p>Verify the Online device list info is corrected</p>
+</td><td></td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="4">Automated</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="4"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Priority:</span></td><td colspan="4">Medium</td></tr>
+<tr><td colspan="5"></td></tr><tr style="font-weight: bold;background: #EEE;text-align: left;"><td width="20%" valign="top">Execution Details</td><td colspan="4">&nbsp;</td></tr>
+<tr><td width="20%" valign="top">Build</td><td colspan="4">v1.1.03.002</td></tr>
+<tr><td width="20%" valign="top">Tester</td><td  colspan="4" >frank_hung</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Execution Result:</span></td><td  colspan="4" ><b>Passed</b></td></tr>
+<tr><td width="20%"><span class="label">Execution Mode:</span></td><td  colspan="4" ><b>Automated</b></td></tr>
+<tr><td width="20%"><span class="label">Execution duration (min):</span></td><td  colspan="4" ><b>&nbsp;</b></td></tr>
+</table>
+</div>
+<p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="5">Test Case G-CPE-274: Protocol&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td><td><span class="label">Execution Status:</span></td></tr><tr><td width="5">1</td><td><p>Connect DUT to Internet (DHCP Mode)</p>
+</td><td></td><td></td></tr><tr><td width="5">2</td><td><p>Check Protocol&nbsp;info</p>
+</td><td><p>Verify the Protocol info is corrected</p>
+</td><td></td></tr><tr><td width="5">3</td><td><table>
+	<tbody>
+		<tr>
+			<td>
+			<p>Connect DUT to Internet (Static&nbsp;Mode)</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</td><td></td><td></td></tr><tr><td width="5">4</td><td><p>Check Protocol&nbsp;info</p>
+</td><td><p>Verify the Protocol info is corrected</p>
+</td><td></td></tr><tr><td width="5">5</td><td><p>Connect DUT to Internet (PPPoE&nbsp;Mode)</p>
+</td><td></td><td></td></tr><tr><td width="5">6</td><td><p>Check Protocol Info</p>
+</td><td><p>Verify the Protocol info is corrected</p>
+</td><td></td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="4">Automated</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="4"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Priority:</span></td><td colspan="4">Medium</td></tr>
+<tr><td colspan="5"></td></tr><tr style="font-weight: bold;background: #EEE;text-align: left;"><td width="20%" valign="top">Execution Details</td><td colspan="4">&nbsp;</td></tr>
+<tr><td width="20%" valign="top">Build</td><td colspan="4">v1.1.03.002</td></tr>
+<tr><td width="20%" valign="top">Tester</td><td  colspan="4" >frank_hung</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Execution Result:</span></td><td  colspan="4" ><b>Passed</b></td></tr>
+<tr><td width="20%"><span class="label">Execution Mode:</span></td><td  colspan="4" ><b>Automated</b></td></tr>
+<tr><td width="20%"><span class="label">Execution duration (min):</span></td><td  colspan="4" ><b>&nbsp;</b></td></tr>
+</table>
+</div>
+<p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="5">Test Case G-CPE-275: Internet Address&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td><td><span class="label">Execution Status:</span></td></tr><tr><td width="5">1</td><td><p>Connect DUT to Internet&nbsp;</p>
+</td><td><p>Check default protocol is DHCP</p>
+</td><td></td></tr><tr><td width="5">2</td><td><p>Check Internet Address &nbsp;</p>
+</td><td><p>Verify the Internet Address info is correct</p>
+</td><td></td></tr><tr><td width="5">3</td><td><p>Change IP Protocal Type to Static</p>
+</td><td><p>Verify the Internet Address info is correct</p>
+</td><td></td></tr><tr><td width="5">4</td><td><p>Change IP Protocal Type to PPPoE</p>
+</td><td><p>Verify the Internet Address info is correct</p>
+</td><td></td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="4">Automated</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="4"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Priority:</span></td><td colspan="4">Medium</td></tr>
+<tr><td colspan="5"></td></tr><tr style="font-weight: bold;background: #EEE;text-align: left;"><td width="20%" valign="top">Execution Details</td><td colspan="4">&nbsp;</td></tr>
+<tr><td width="20%" valign="top">Build</td><td colspan="4">v1.1.03.002</td></tr>
+<tr><td width="20%" valign="top">Tester</td><td  colspan="4" >frank_hung</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Execution Result:</span></td><td  colspan="4" ><b>Passed</b></td></tr>
+<tr><td width="20%"><span class="label">Execution Mode:</span></td><td  colspan="4" ><b>Automated</b></td></tr>
+<tr><td width="20%"><span class="label">Execution duration (min):</span></td><td  colspan="4" ><b>&nbsp;</b></td></tr>
+</table>
+</div>
+<p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="5">Test Case G-CPE-276: Primary DNS&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td><td><span class="label">Execution Status:</span></td></tr><tr><td width="5">1</td><td><p>Connect DUT to Internet&nbsp;</p>
+</td><td><p>Check default protocol is DHCP</p>
+</td><td></td></tr><tr><td width="5">2</td><td><p>Check Primary DNS</p>
+</td><td><p>Verify the Primary DNS &nbsp;info is corrected</p>
+</td><td></td></tr><tr><td width="5">3</td><td><p>Change protocol setting to static and set the Primary DNS &quot;8.8.8.8&quot;</p>
+</td><td><p>After setting finish, check&nbsp;primary DNS of home page.</p>
+</td><td></td></tr><tr><td width="5">4</td><td><p>Setting primary DNS with full-width character such as &quot;８.8.8.8&quot;</p>
+</td><td><p>It should shows primary dns server format is incorrect.</p>
+</td><td></td></tr><tr><td width="5">5</td><td><p>Keep primary DNS with blank&nbsp;</p>
+</td><td><p>DUT accept the setting&nbsp;</p>
+</td><td></td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="4">Automated</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="4"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Priority:</span></td><td colspan="4">Medium</td></tr>
+<tr><td colspan="5"></td></tr><tr style="font-weight: bold;background: #EEE;text-align: left;"><td width="20%" valign="top">Execution Details</td><td colspan="4">&nbsp;</td></tr>
+<tr><td width="20%" valign="top">Build</td><td colspan="4">v1.1.03.002</td></tr>
+<tr><td width="20%" valign="top">Tester</td><td  colspan="4" >frank_hung</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Execution Result:</span></td><td  colspan="4" ><b>Passed</b></td></tr>
+<tr><td width="20%"><span class="label">Execution Mode:</span></td><td  colspan="4" ><b>Automated</b></td></tr>
+<tr><td width="20%"><span class="label">Execution duration (min):</span></td><td  colspan="4" ><b>&nbsp;</b></td></tr>
+</table>
+</div>
+<p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="5">Test Case G-CPE-277: Secondary DNS&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td><td><span class="label">Execution Status:</span></td></tr><tr><td width="5">1</td><td><p>Connect DUT to Internet</p>
+</td><td></td><td></td></tr><tr><td width="5">2</td><td><p>Check Secondary DNS</p>
+</td><td><p>Verify the Secondary DNS info is corrected</p>
+</td><td></td></tr><tr><td width="5">3</td><td><p>Keep primary DNS with blank&nbsp;</p>
+</td><td><p>It can&nbsp;pass the setting&nbsp;</p>
+</td><td></td></tr><tr><td width="5">4</td><td><p>Change protocol setting to static and set the Secondary DNS &quot;8.8.8.8&quot; or &quot;168.95.1.1&quot;</p>
+</td><td><p>After setting finish, check&nbsp;primary DNS of home page.</p>
+</td><td></td></tr><tr><td width="5">5</td><td><p>Setting secondary DNS with full-width character such as &quot;８.8.8.8&quot;</p>
+</td><td><p>It should shows primary dns server format is incorrect.</p>
+</td><td></td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="4">Automated</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="4"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Priority:</span></td><td colspan="4">Medium</td></tr>
+<tr><td colspan="5"></td></tr><tr style="font-weight: bold;background: #EEE;text-align: left;"><td width="20%" valign="top">Execution Details</td><td colspan="4">&nbsp;</td></tr>
+<tr><td width="20%" valign="top">Build</td><td colspan="4">v1.1.03.002</td></tr>
+<tr><td width="20%" valign="top">Tester</td><td  colspan="4" >frank_hung</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Execution Result:</span></td><td  colspan="4" ><b>Passed</b></td></tr>
+<tr><td width="20%"><span class="label">Execution Mode:</span></td><td  colspan="4" ><b>Automated</b></td></tr>
+<tr><td width="20%"><span class="label">Execution duration (min):</span></td><td  colspan="4" ><b>&nbsp;</b></td></tr>
+</table>
+</div>
+<p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="5">Test Case G-CPE-278: MacAddress&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td><td><span class="label">Execution Status:</span></td></tr><tr><td width="5">1</td><td><p>Connect DUT to Internet</p>
+</td><td></td><td></td></tr><tr><td width="5">2</td><td><p>Check Mac addresses display format&nbsp;</p>
+</td><td><p>Verify the &nbsp;MacAddress info is in correct XX:XX:XX:XX:XX:XX format</p>
+</td><td></td></tr><tr><td width="5">3</td><td><p>Mac address Uniqueness</p>
+</td><td><p>Each device has unique Mac address</p>
+</td><td></td></tr><tr><td width="5">4</td><td><p>Mac address persistence</p>
+</td><td><p>Mac addresses remain consistent across reboots</p>
+</td><td></td></tr><tr><td width="5">5</td><td><p>Mac address case format</p>
+</td><td><p>Mac addresses display in consistent case format (upper/lower)</p>
+</td><td></td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="4">Automated</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="4"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Priority:</span></td><td colspan="4">Medium</td></tr>
+<tr><td colspan="5"></td></tr><tr style="font-weight: bold;background: #EEE;text-align: left;"><td width="20%" valign="top">Execution Details</td><td colspan="4">&nbsp;</td></tr>
+<tr><td width="20%" valign="top">Build</td><td colspan="4">v1.1.03.002</td></tr>
+<tr><td width="20%" valign="top">Tester</td><td  colspan="4" >frank_hung</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Execution Result:</span></td><td  colspan="4" ><b>Passed</b></td></tr>
+<tr><td width="20%"><span class="label">Execution Mode:</span></td><td  colspan="4" ><b>Automated</b></td></tr>
+<tr><td width="20%"><span class="label">Execution duration (min):</span></td><td  colspan="4" ><b>&nbsp;</b></td></tr>
+</table>
+</div>
+<h1 class='doclevel'>Test Suite : Ethernet port status</h1>
+<p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="5">Test Case G-CPE-279: WAN interface&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td><td><span class="label">Execution Status:</span></td></tr><tr><td width="5">1</td><td><p>Connect DUT to Internet</p>
+</td><td></td><td></td></tr><tr><td width="5">2</td><td><p>Check WAN interface&nbsp;</p>
+</td><td><p>WAN interface color should be green light</p>
+</td><td></td></tr><tr><td width="5">3</td><td><p>Disconnect DUT to Internet&nbsp;</p>
+</td><td></td><td></td></tr><tr><td width="5">4</td><td><p>Check WAN interface</p>
+</td><td><p>WAN interface color should not be green light<br />
+&nbsp;</p>
+</td><td></td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="4">Automated</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="4"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Priority:</span></td><td colspan="4">Medium</td></tr>
+<tr><td colspan="5"></td></tr><tr style="font-weight: bold;background: #EEE;text-align: left;"><td width="20%" valign="top">Execution Details</td><td colspan="4">&nbsp;</td></tr>
+<tr><td width="20%" valign="top">Build</td><td colspan="4">v1.1.03.002</td></tr>
+<tr><td width="20%" valign="top">Tester</td><td  colspan="4" >frank_hung</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Execution Result:</span></td><td  colspan="4" ><b>Passed</b></td></tr>
+<tr><td width="20%"><span class="label">Execution Mode:</span></td><td  colspan="4" ><b>Automated</b></td></tr>
+<tr><td width="20%"><span class="label">Execution duration (min):</span></td><td  colspan="4" ><b>&nbsp;</b></td></tr>
+</table>
+</div>
+<p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="5">Test Case G-CPE-280: LAN interface 1&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td><td><span class="label">Execution Status:</span></td></tr><tr><td width="5">1</td><td><p>Connect LAN1 PC to DUT&nbsp;</p>
+</td><td></td><td></td></tr><tr><td width="5">2</td><td><p>Check LAN1 interface</p>
+</td><td><p>LAN1 interface color should be green light</p>
+</td><td></td></tr><tr><td width="5">3</td><td><p>Disconnect LAN1 PC to DUT&nbsp;</p>
+</td><td></td><td></td></tr><tr><td width="5">4</td><td><p>Check LAN1 interface</p>
+</td><td><p>LAN1 interface color should not be green light</p>
+</td><td></td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="4">Automated</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="4"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Priority:</span></td><td colspan="4">Medium</td></tr>
+<tr><td colspan="5"></td></tr><tr style="font-weight: bold;background: #EEE;text-align: left;"><td width="20%" valign="top">Execution Details</td><td colspan="4">&nbsp;</td></tr>
+<tr><td width="20%" valign="top">Build</td><td colspan="4">v1.1.03.002</td></tr>
+<tr><td width="20%" valign="top">Tester</td><td  colspan="4" >frank_hung</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Execution Result:</span></td><td  colspan="4" ><b>Passed</b></td></tr>
+<tr><td width="20%"><span class="label">Execution Mode:</span></td><td  colspan="4" ><b>Automated</b></td></tr>
+<tr><td width="20%"><span class="label">Execution duration (min):</span></td><td  colspan="4" ><b>&nbsp;</b></td></tr>
+</table>
+</div>
+<p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="5">Test Case G-CPE-281: LAN interface 2&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td><td><span class="label">Execution Status:</span></td></tr><tr><td width="5">1</td><td><p>Connect LAN2 PC to DUT</p>
+</td><td></td><td></td></tr><tr><td width="5">2</td><td><p>Check LAN2 interface</p>
+</td><td><p>LAN2 interface color should be green light<br />
+&nbsp;</p>
+</td><td></td></tr><tr><td width="5">3</td><td><p>Disconnect LAN2 PC to DUT</p>
+</td><td><p>LAN2&nbsp;interface color should not be green light</p>
+</td><td></td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="4">Automated</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="4"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Priority:</span></td><td colspan="4">Medium</td></tr>
+<tr><td colspan="5"></td></tr><tr style="font-weight: bold;background: #EEE;text-align: left;"><td width="20%" valign="top">Execution Details</td><td colspan="4">&nbsp;</td></tr>
+<tr><td width="20%" valign="top">Build</td><td colspan="4">v1.1.03.002</td></tr>
+<tr><td width="20%" valign="top">Tester</td><td  colspan="4" >frank_hung</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Execution Result:</span></td><td  colspan="4" ><b>Passed</b></td></tr>
+<tr><td width="20%"><span class="label">Execution Mode:</span></td><td  colspan="4" ><b>Automated</b></td></tr>
+<tr><td width="20%"><span class="label">Execution duration (min):</span></td><td  colspan="4" ><b>&nbsp;</b></td></tr>
+</table>
+</div>
+<p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="5">Test Case G-CPE-282: LAN interface 3&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td><td><span class="label">Execution Status:</span></td></tr><tr><td width="5">1</td><td><p>Connect LAN3 PC to DUT</p>
+</td><td></td><td></td></tr><tr><td width="5">2</td><td><p>Check LAN3 interface</p>
+</td><td><p>LAN3 interface color should be green light</p>
+</td><td></td></tr><tr><td width="5">3</td><td><p>Disconnect LAN3 PC to DUT</p>
+</td><td></td><td></td></tr><tr><td width="5">4</td><td><p>Check LAN3 interface</p>
+</td><td><p>LAN3 interface color should not be green light<br />
+&nbsp;</p>
+</td><td></td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="4">Automated</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="4"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Priority:</span></td><td colspan="4">Medium</td></tr>
+<tr><td colspan="5"></td></tr><tr style="font-weight: bold;background: #EEE;text-align: left;"><td width="20%" valign="top">Execution Details</td><td colspan="4">&nbsp;</td></tr>
+<tr><td width="20%" valign="top">Build</td><td colspan="4">v1.1.03.002</td></tr>
+<tr><td width="20%" valign="top">Tester</td><td  colspan="4" >frank_hung</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Execution Result:</span></td><td  colspan="4" ><b>Passed</b></td></tr>
+<tr><td width="20%"><span class="label">Execution Mode:</span></td><td  colspan="4" ><b>Automated</b></td></tr>
+<tr><td width="20%"><span class="label">Execution duration (min):</span></td><td  colspan="4" ><b>&nbsp;</b></td></tr>
+</table>
+</div>
+<p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="5">Test Case G-CPE-283: LAN interface 4&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td><td><span class="label">Execution Status:</span></td></tr><tr><td width="5">1</td><td><p>Connect LAN4&nbsp;PC to DUT</p>
+</td><td></td><td></td></tr><tr><td width="5">2</td><td><p>Check LAN4 interface</p>
+</td><td><p>LAN4 interface color should be green light</p>
+</td><td></td></tr><tr><td width="5">3</td><td><p>Disconnect LAN4 PC to DUT</p>
+</td><td></td><td></td></tr><tr><td width="5">4</td><td><p>Check LAN4 interfac</p>
+</td><td><p>LAN4 interface color should not be green light</p>
+</td><td></td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="4">Automated</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="4"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Priority:</span></td><td colspan="4">Medium</td></tr>
+<tr><td colspan="5"></td></tr><tr style="font-weight: bold;background: #EEE;text-align: left;"><td width="20%" valign="top">Execution Details</td><td colspan="4">&nbsp;</td></tr>
+<tr><td width="20%" valign="top">Build</td><td colspan="4">v1.1.03.002</td></tr>
+<tr><td width="20%" valign="top">Tester</td><td  colspan="4" >frank_hung</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Execution Result:</span></td><td  colspan="4" ><b>Failed</b></td></tr>
+<tr><td width="20%"><span class="label">Execution Mode:</span></td><td  colspan="4" ><b>Automated</b></td></tr>
+<tr><td width="20%"><span class="label">Execution duration (min):</span></td><td  colspan="4" ><b>&nbsp;</b></td></tr>
+</table>
+</div>
+<h1 class='doclevel'>Test Suite : System Info</h1>
+<p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="5">Test Case G-CPE-267: Manufacture&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td><td><span class="label">Execution Status:</span></td></tr><tr><td width="5">1</td><td><p>Check Manufacture&nbsp;</p>
+</td><td><p>Verify the Manufacture info is corrected</p>
+</td><td></td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="4">Automated</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="4"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Priority:</span></td><td colspan="4">Medium</td></tr>
+<tr><td colspan="5"></td></tr><tr style="font-weight: bold;background: #EEE;text-align: left;"><td width="20%" valign="top">Execution Details</td><td colspan="4">&nbsp;</td></tr>
+<tr><td width="20%" valign="top">Build</td><td colspan="4">v1.1.03.002</td></tr>
+<tr><td width="20%" valign="top">Tester</td><td  colspan="4" >frank_hung</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Execution Result:</span></td><td  colspan="4" ><b>Passed</b></td></tr>
+<tr><td width="20%"><span class="label">Execution Mode:</span></td><td  colspan="4" ><b>Automated</b></td></tr>
+<tr><td width="20%"><span class="label">Execution duration (min):</span></td><td  colspan="4" ><b>&nbsp;</b></td></tr>
+</table>
+</div>
+<p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="5">Test Case G-CPE-268: Serial Number&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td><td><span class="label">Execution Status:</span></td></tr><tr><td width="5">1</td><td><p>1.Check Serial Number&nbsp;&nbsp; &nbsp;</p>
+</td><td><p>Verify the Serial Number info is corrected</p>
+</td><td></td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="4">Automated</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="4"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Priority:</span></td><td colspan="4">Medium</td></tr>
+<tr><td colspan="5"></td></tr><tr style="font-weight: bold;background: #EEE;text-align: left;"><td width="20%" valign="top">Execution Details</td><td colspan="4">&nbsp;</td></tr>
+<tr><td width="20%" valign="top">Build</td><td colspan="4">v1.1.03.002</td></tr>
+<tr><td width="20%" valign="top">Tester</td><td  colspan="4" >frank_hung</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Execution Result:</span></td><td  colspan="4" ><b>Passed</b></td></tr>
+<tr><td width="20%"><span class="label">Execution Mode:</span></td><td  colspan="4" ><b>Automated</b></td></tr>
+<tr><td width="20%"><span class="label">Execution duration (min):</span></td><td  colspan="4" ><b>&nbsp;</b></td></tr>
+</table>
+</div>
+<p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="5">Test Case G-CPE-269: Firmware Version&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td><td><span class="label">Execution Status:</span></td></tr><tr><td width="5">1</td><td><p>Check Firmware Version</p>
+</td><td><p>Verify the Firmware Version info is corrected</p>
+</td><td></td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="4">Automated</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="4"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Priority:</span></td><td colspan="4">Medium</td></tr>
+<tr><td colspan="5"></td></tr><tr style="font-weight: bold;background: #EEE;text-align: left;"><td width="20%" valign="top">Execution Details</td><td colspan="4">&nbsp;</td></tr>
+<tr><td width="20%" valign="top">Build</td><td colspan="4">v1.1.03.002</td></tr>
+<tr><td width="20%" valign="top">Tester</td><td  colspan="4" >frank_hung</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Execution Result:</span></td><td  colspan="4" ><b>Passed</b></td></tr>
+<tr><td width="20%"><span class="label">Execution Mode:</span></td><td  colspan="4" ><b>Automated</b></td></tr>
+<tr><td width="20%"><span class="label">Execution duration (min):</span></td><td  colspan="4" ><b>&nbsp;</b></td></tr>
+</table>
+</div>
+<p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="5">Test Case G-CPE-270: Model Name&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td><td><span class="label">Execution Status:</span></td></tr><tr><td width="5">1</td><td><p>Check Model Name</p>
+</td><td><p>Verify the Model Name info is corrected</p>
+</td><td></td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="4">Automated</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="4"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Priority:</span></td><td colspan="4">Medium</td></tr>
+<tr><td colspan="5"></td></tr><tr style="font-weight: bold;background: #EEE;text-align: left;"><td width="20%" valign="top">Execution Details</td><td colspan="4">&nbsp;</td></tr>
+<tr><td width="20%" valign="top">Build</td><td colspan="4">v1.1.03.002</td></tr>
+<tr><td width="20%" valign="top">Tester</td><td  colspan="4" >frank_hung</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Execution Result:</span></td><td  colspan="4" ><b>Passed</b></td></tr>
+<tr><td width="20%"><span class="label">Execution Mode:</span></td><td  colspan="4" ><b>Automated</b></td></tr>
+<tr><td width="20%"><span class="label">Execution duration (min):</span></td><td  colspan="4" ><b>&nbsp;</b></td></tr>
+</table>
+</div>
+<p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="5">Test Case G-CPE-271: Hardware Version&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td><td><span class="label">Execution Status:</span></td></tr><tr><td width="5">1</td><td><p>Check Hardware Version</p>
+</td><td><p>Verify the Hardware Version info is corrected</p>
+</td><td></td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="4">Automated</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="4"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Priority:</span></td><td colspan="4">Medium</td></tr>
+<tr><td colspan="5"></td></tr><tr style="font-weight: bold;background: #EEE;text-align: left;"><td width="20%" valign="top">Execution Details</td><td colspan="4">&nbsp;</td></tr>
+<tr><td width="20%" valign="top">Build</td><td colspan="4">v1.1.03.002</td></tr>
+<tr><td width="20%" valign="top">Tester</td><td  colspan="4" >frank_hung</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Execution Result:</span></td><td  colspan="4" ><b>Passed</b></td></tr>
+<tr><td width="20%"><span class="label">Execution Mode:</span></td><td  colspan="4" ><b>Automated</b></td></tr>
+<tr><td width="20%"><span class="label">Execution duration (min):</span></td><td  colspan="4" ><b>&nbsp;</b></td></tr>
+</table>
+</div>
+
+</body>
+</html>
